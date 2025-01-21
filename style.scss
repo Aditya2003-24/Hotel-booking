@@ -1,0 +1,541 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    padding: 25px;
+    background-color: rgba(111, 108, 108, 0.915);
+    width: 100%;
+    h1{
+        color: whitesmoke;
+    }
+   
+    ul{
+        display: flex;
+        gap: 50px;
+        
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+    }
+}
+.start{
+    height: 800px;
+    width: 100%;
+    h1{
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        margin-left: 40px;
+        padding-top: 358px;
+      
+    }
+    background-image: url("https://themewagon.github.io/hotel/img/slider-1.jpg");
+    
+}
+section{
+    text-align: center;
+    margin: 150px;
+    h1{
+        font-size: 48px;
+        margin: 33px;
+    }p{
+        font-size: 22px;
+    }
+
+    .pera{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+    }
+}
+#wellness{
+    margin-top: 100px;
+    img{
+        width: 582px;
+        height: 500px;
+    }
+    p{
+        font-size: 22px;
+        font-family: "Open Sans", sans-serif;
+        // margin: 0 0 15px 0;
+    }
+    h1{
+        margin: 20px;
+        font-size: 40px;
+         font-family: "Taviraj", serif;
+    }     
+    .bad{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: center;
+        height: 500px;
+        a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 20px;
+             font-family: "Taviraj", serif;
+        }
+        .sit{
+            margin: 90px;
+        }
+    }
+    .roof{
+        display: flex;
+        //  flex-wrap: wrap;
+         justify-content: center;
+        a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 20px;
+            
+        }
+        .dolor{
+            margin-top: 120px;
+            
+        }
+    }
+    
+
+}
+ html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+.swiper {
+      width: 1000px;
+      height: 600px;
+      margin: 20px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+#Facilities{
+    padding-left: 160px;
+     font-size: 72px; 
+     font-weight: 400;
+      font-family: "Taviraj", serif;
+
+}
+#btn{
+    margin: 40px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px rgb(91, 86, 86);
+    border: 1px solid black;
+    width: 1300px;
+    div{
+        width: 60%;
+        text-align: center;
+         padding-top: 50px;
+         font-family: "Taviraj", serif;
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+    h1{
+        font-size: 40x;
+        font-family: "Taviraj", serif;
+    }
+    p{
+        font-size: 25px;
+        margin: 40px;
+        word-spacing: 8px;
+    }
+    a{
+        border: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+#btn1{
+    margin: 40px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px rgb(91, 86, 86);
+    border: 1px solid black;
+    width: 1300px;
+    div{
+        width: 60%;
+        text-align: center;
+         padding-top: 50px;
+         font-family: "Taviraj", serif;
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+    h1{
+        font-size: 40x;
+        font-family: "Taviraj", serif;
+    }
+    p{
+        font-size: 25px;
+        margin: 40px;
+        word-spacing: 8px;
+    }
+    a{
+        border: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+#btn2{
+    margin: 40px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px rgb(91, 86, 86);
+    border: 1px solid black;
+    width: 1300px;
+    div{
+        width: 60%;
+        text-align: center;
+         padding-top: 50px;
+         font-family: "Taviraj", serif;
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+    h1{
+        font-size: 40x;
+        font-family: "Taviraj", serif;
+    }
+    p{
+        font-size: 25px;
+        margin: 40px;
+        word-spacing: 8px;
+    }
+    a{
+        border: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+#btn3{
+    margin: 40px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px rgb(91, 86, 86);
+    border: 1px solid black;
+    width: 1300px;
+    div{
+        width: 60%;
+        text-align: center;
+         padding-top: 50px;
+         font-family: "Taviraj", serif;
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+    h1{
+        font-size: 40x;
+        font-family: "Taviraj", serif;
+    }
+    p{
+        font-size: 25px;
+        margin: 40px;
+        word-spacing: 8px;
+    }
+    a{
+        border: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+#boot{
+    background-color: lightblue;
+    width: 1200px;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    #bot{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #inp{
+        padding: 5px;
+    }
+
+}
+#tab{
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  td{
+    border: 1px solid #ddd;
+  padding: 8px;
+  }
+  th{
+     padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(108, 102, 102);
+  color: white;
+    border: 1px solid #ddd;
+  padding: 8px;
+  }
+  
+
+}
+#tap tr:nth-child(even){background-color: #f2f2f2;}
+#tap tr:hover {background-color: #ddd;}
+.footer{
+     background: #353535;
+     padding: 30px;
+     overflow: hidden;
+        width: 100%;
+            box-sizing: border-box;
+        // display: flex;
+        // gap: 150px;
+        .fot{
+            display: flex;
+            gap: 150px;
+            margin: 50px;
+             padding-right: 15px;
+      padding-left: 115px;
+        }
+
+        h5{
+            color: #ae9548;
+            font-size: 20px;
+        }
+        i{
+            color: #ae9548;
+        }
+        p{
+            color: white;
+        }
+   
+
+        
+    h1{
+        color: white;
+        font-size: 40px;
+        position: relative;
+      padding-right: 15px;
+      padding-left: 25px;
+       font-family: "Taviraj", serif;
+    }
+    .last{
+        border-top: 1px solid #ae9548;
+            padding: 20px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .pera{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .swiper {
+      width: 750px;
+      height: 500px;
+    }
+.fot{
+    flex-wrap: wrap;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.roof{
+    
+    flex-direction: column-reverse;
+    place-items: center;
+    margin-top: 400px;
+}
+.sit{
+    height: 400px;
+   
+}
+.bad{
+    flex-wrap: wrap;
+    
+    
+}
+#wellness img {
+    width: 396px;
+    height: 377px;
+}
+.start h1 {
+    color: white;
+    font-size: 77px;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 262px;
+}
+section h1 {
+    font-size: 23px;
+}
+
+Section p {
+    font-size: 16px;
+}
+#Facilities {
+    padding-left: 39px;
+}
+#wellness .roof a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 15px;
+}
+#wellness .bad a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+}
+
+#wellness .bad .sit {
+    margin: 90px;
+}
+}
+
+@media (max-width: 480px) {
+    .pera{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .swiper {
+      width: 400px;
+      height: 500px;
+    }
+.fot{
+    flex-wrap: wrap;
+}
+nav{
+    ul{
+        display: none;
+    }
+}
+.roof{
+    
+    flex-direction: column-reverse;
+    place-items: center;
+    margin-top: 600px;
+}
+.sit{
+    height: 400px;
+   
+}
+.bad{
+    flex-wrap: wrap;
+    
+    
+}
+#wellness img {
+    width: 396px;
+    height: 377px;
+}
+.start h1 {
+    color: white;
+    font-size: 77px;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 262px;
+}
+section h1 {
+    font-size: 23px;
+}
+
+Section p {
+    font-size: 16px;
+}
+#Facilities {
+    padding-left: 39px;
+}
+#wellness .roof a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 13px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 15px;
+}
+#wellness .bad a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+}
+
+#wellness .bad .sit {
+    margin: 90px;
+}
+}
