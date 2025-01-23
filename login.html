@@ -12,42 +12,91 @@
     />
 
     <link rel="stylesheet" href="login.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Document</title>
   </head>
   <body>
 
-    
-    
+    <header>
+      <h1>TRIVAGO</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="/room.html">ROOMS</a></li>
+          <li><a href="#"> Facilities</a></li>
+          <li><a href="/display.html"> Display</a></li>
+          <li><a href="/update.html"> Update</a></li>
+          <li><a href="/login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    
+    <!-- <form action="">
+    <label for="nam">Name</label>
+    <input type="text" id="nam" placeholder="Enter your name">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email">
+    <label for="mob">Mobile number</label>
+    <input type="number" id="mob" placeholder="Enter your number">
+    <label for="dat">Check in</label>
+    <input type="date" id="dat">
+    <label for="up">Check out</label>
+    <input type="date" id="up">
+  </form> -->
 
-    <div class="log">
+<div class="sub1">
+
+<div class="log">
+   
       <form action="">
-        <h1>LOGIN</h1>
-        <div class="user">
-          <input type="text" placeholder="username" required />
-          <i class="fa-solid fa-user"></i>
+        
+        <div class="int">
+          <div>
+           <h1>Enter Name</h1> 
+          <input class="user" type="text" id="nm" placeholder="username" required />
+          
+        
+            <h1>Enter Number</h1> 
+          <input class="user" type="number" id="no" placeholder="Enter number" required />
+          
+        
+            <h1>Enter Email</h1> 
+          <input class="user" type="email" id="em" placeholder="Enter email" required />
+          </div>
+        <div >
+          <h1>Room Type</h1> 
+          
+          <select class="user" id="ro">
+            <option value="Double">Double room</option>
+            <option value="Single" selected>Single room</option>
+            <option value="room">Triple room</option>
+        </select>
+        
+          <h1>Check in</h1> 
+          <input class="user" type="date" id="int" placeholder="Check in" required />
+          <h1>Check out</h1>
+          <input class="user" type="date" id="out" placeholder="Check out" required />
+          
+          
         </div>
-        <div class="user">
-          <input type="number" placeholder="Number" required />
-          <i class="fa-solid fa-lock"></i>
         </div>
-        <div class="user">
-          <input type="email" placeholder="Email" required />
-          <i class="fa-solid fa-lock"></i>
-        </div>
-        <div class="user">
-          <input type="text" placeholder="Location" required />
-          <i class="fa-solid fa-lock"></i>
-        </div>
+         
+      <h1>LOGIN</h1>
         <div class="for">
           <label for=""><input type="checkbox" />Remember me</label>
           <a href="#">Forgot password ?</a>
         </div>
-        <button type="submit" class="btn"><a href="/index.html" style="text-decoration: none; color: black;">Login</a></button>
+        <button type="submit" class="btn" id="btn1"><a href="/index.html" style="text-decoration: none; color: black;">Submit</a></button>
         <div class="reg">
           <p>Don't have an account ?<a href="#">Register</a></p>
         </div>
       </form>
     </div>
+
+    </div>
+
+    <script src="/datasave.js"></script>
   </body>
 </html>

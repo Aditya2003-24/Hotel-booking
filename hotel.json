@@ -1,222 +1,240 @@
 {
-    "Hotel":[
-        {
-          "id": "1",
-          "hotelid": "bhopal",
-          "name": "Fairyland Clarks Inn",
-          "city": "Bhopal",
-          "star": 5,
-          "Address": "Kolar Main Road, , Chuna Bhatti, Bhopal, 462013, India",
-          "price": 3090
-        },
-        {
-          "id": "2",
-          "hotelid": "bhopal",
-          "name": "Taj Lakefront, Bhopal",
-          "city": "Bhopal",
-          "Address": "Bhadbhada Road, Main Rd No. 3, Chouraha, Bhopal, Madhya Pradesh",
-          "star":4.5,
-          "price": "1,22,720"
-        },
-        {
-          "id": "3",
-          "hotelid": "bhopal",
-          "name": "Jehan Numa Palace Hotel",
-          "city": "Bhopal",
-          "star": 4.5,
-          "Address": "157, Shyamla Hills Rd, Shymala Hills, Bhopal,",
-          "price": "10,886"
-        },
-        {
-          "id": "4",
-          "hotelid": "bhopal",
-          "name": "Radisson Hotel Bhopal",
-          "city": "Bhopal",
-          "star": 4.7,
-          "Address": "Gulmohar Main Rd, opposite Savoy Complex, E-8, Bawadiya Kalan, Gulmohar Colony, Bhopal,",
-          "price": " 7,134"
-        },
-        {
-          "id": "5",
-          "hotelid": "bhopal",
-          "name": "Enrise by Sayaji - Best Banquet hotel in Bhopal",
-          "city": "Bhopal",
-          "star": 4.3,
-          "Address": "Van Vihar Rd, Near Sair Sapata, Prempura, Bhopal,",
-          "price": 3612
-        },
-        {
-          "id": "6",
-          "hotelid": "bhopal",
-          "name": "Noor-Us-Sabah Palace",
-          "city": "Bhopal",
-          "star": 4.4,
-          "Address": "VIP Road, Kohefiza, Bhopal, Madhya Pradesh 462001",
-          "price": "10,865"
-        },
-        {
-          "id": "7",
-          "hotelid": "bhopal",
-          "name": "Courtyard by Marriott Bhopaln",
-          "city": "Bhopal",
-          "star": 4.4,
-          "Address": "Dainik Bhaskar Mall, DB City Mall, Zone-I, Arera Hills, Bhopal,",
-          "price": "7,185"
-        },
-        {
-          "id": "1",
-          "hotelid": "dehli",
-          "name": "The Lalit New Delhi",
-          "star": 4.4,
-          "city": "Dehli",
-          "Address": "Fire Brigade Lane, Barakhamba, New Delhi, Delhi ",
-          "price": "7,324"
-        },
-        {
-          "id": "2",
-          "hotelid": "dehli",
-          "name": "Taj Palace, New Delhi",
-          "city": "Dehli",
-          "star": 4.7,
-          "Address": "Taj Palace, 2, Sardar Patel Marg, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi",
-          "price": "19,859"
-        },
-        {
-          "id": "3",
-          "hotelid": "dehli",
-          "name": "De Pavilion Hotel, Delhi",
-          "star": 4.5,
-          "city": "Dehli",
-          "Address": "250-A, Road No. 6, Block RZ, Mahipalpur Village, Mahipalpur, New Delhi,",
-          "price": "2,464"
-        },
-        {
-          "id": "4",
-          "hotelid": "dehli",
-          "name": "Artistic Posh Delhi House",
-          "star": 4.9,
-          "city": "Dehli",
-          "Address": "Brigade Lane, Barakhamba, New Delhi, Delhi ",
-          "price": "3,475"
-        },
-        {
-          "id": "5",
-          "hotelid": "dehli",
-          "name": "Hotel Ajanta",
-          "star": 4.4,
-          "city": "Dehli",
-          "Address": "8647, Arakashan Rd, Ram Nagar, Paharganj, New Delhi, Delhi",
-          "price": "2,022"
-        },
-        {
-          "id": "6",
-          "hotelid": "dehli",
-          "name": "A well furnished 3BHK house for family stay with all facilities.",
-          "star": 5.0,
-          "city": "Dehli",
-          "Address": " Barakhamba, New Delhi, Delhi ",
-          "price": "48,342"
-        }
-    ,
-      {
-        "id": "1",
-        "hotelid": "mumbai",
-        "name": "The Taj Mahal Palace, Mumbai",
-        "city": "mumbai",
-        "star": 4.7,
-        "Address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
-        "price": "62,258"
-      },
-      {
-        "id": "2",
-        "hotelid": "mumbai",
-        "name": "Hotel Bawa International",
-        "city": "mumbai",
-        "star": 4.2,
-        "Address": "Plot No, T1, Near, 2087, Nehru Rd, Extn, ",
-        "price": "4,515"
-      },
-      {
-        "id": "3",
-        "hotelid": "mumbai",
-        "name": "The Royal Orchid",
-        "city": "mumbai",
-        "star": 4.3,
-        "Address": "83, Narayan Gajanan Acharya Marg, adj. to Railway Station,",
-        "price": "7,756"
-      },
-      {
-        "id": "4",
-        "hotelid": "mumbai",
-        "name": "Four Seasons Hotel Mumbai",
-        "city": "mumbai",
-        "star": 4.5,
-        "Address": "Dr Elijah Moses Rd, Gandhi Nagar, Upper Worli, Worli, Mumbai, ",
-        "price": "31,860"
-      },
-      {
-        "id": "5",
-        "hotelid": "mumbai",
-        "name": "Dragonfly Hotel - The Art Hotel",
-        "city": "mumbai",
-        "star": 4.4,
-        "Address": " New Chakala Link Road,",
-        "price": "2,800"
-      },
-      {
-        "id": "6",
-        "hotelid": "mumbai",
-        "name": "Hyatt Regency Mumbai",
-        "city": "mumbai",
-        "star": 4.5,
-        "Address": "Chhatrapati Shivaji Maharaj Int'l Airport Rd, Ashok Nagar, Andheri East, Mumbai, Maharashtra 400099",
-        "price": "10,258"
-      },
-        
-      {
-        "id": "1",
-        "hotelid": "vidisha",
-        "name": "Hotel Rajawat",
-        "city": "vidisha",
-        "star": 3.7,
-        "Address": "near Railway Station, Madhav Ganj, Baripura, Vidisha",
-        "price": "948"
-      },
-      {
-        "id": "2",
-        "hotelid": "vidisha",
-        "name": "Grand Bhelsa Hotel & Resorts",
-        "city": "vidisha",
-        "star": 4.4,
-        "Address": "Gram-Dabar, Sagar Bypass, Road, Madhya Pradesh 464001 ",
-        "price": "4,131"
-      },
-      {
-        "id": "3",
-        "hotelid": "vidisha",
-        "name": "Krishna sweets restaurant ",
-        "city": "vidisha",
-        "star": 4.3,
-        "Address": "Station Rd, Baripura, Vidisha, Madhya Pradesh 464001",
-        "price": "1,285"
-      },
-      {
-        "id": "4",
-        "hotelid": "vidisha",
-        "name": "Haweli Family Restaurant & Residency",
-        "city": "vidisha",
-        "star": 3.8,
-        "Address": "Vidisha Bypass Rd, Tilakhedi, Vidisha, Madhya Pradesh 464001",
-        "price": "1,223"
-      },
-      {
-        "id": "5",
-        "hotelid": "vidisha",
-        "name": "The Pride Hotel",
-        "city": "vidisha",
-        "star": 3.7,
-        "Address": "Hospital Rd, Baripura, Vidisha",
-        "price": "1,545"
-      }
-    ]
+  "Hotel": [
+    {
+      "id": "1",
+      "hotelid": "bhopal",
+      "name": "Fairyland Clarks Inn",
+      "city": "Bhopal",
+      "star": 5,
+      "Address": "Kolar Main Road, , Chuna Bhatti, Bhopal, 462013, India",
+      "price": 3090
+    },
+    {
+      "id": "2",
+      "hotelid": "bhopal",
+      "name": "Taj Lakefront, Bhopal",
+      "city": "Bhopal",
+      "Address": "Bhadbhada Road, Main Rd No. 3, Chouraha, Bhopal, Madhya Pradesh",
+      "star": 4.5,
+      "price": "1,22,720"
+    },
+    {
+      "id": "3",
+      "hotelid": "bhopal",
+      "name": "Jehan Numa Palace Hotel",
+      "city": "Bhopal",
+      "star": 4.5,
+      "Address": "157, Shyamla Hills Rd, Shymala Hills, Bhopal,",
+      "price": "10,886"
+    },
+    {
+      "id": "4",
+      "hotelid": "bhopal",
+      "name": "Radisson Hotel Bhopal",
+      "city": "Bhopal",
+      "star": 4.7,
+      "Address": "Gulmohar Main Rd, opposite Savoy Complex, E-8, Bawadiya Kalan, Gulmohar Colony, Bhopal,",
+      "price": " 7,134"
+    },
+    {
+      "id": "5",
+      "hotelid": "bhopal",
+      "name": "Enrise by Sayaji - Best Banquet hotel in Bhopal",
+      "city": "Bhopal",
+      "star": 4.3,
+      "Address": "Van Vihar Rd, Near Sair Sapata, Prempura, Bhopal,",
+      "price": 3612
+    },
+    {
+      "id": "6",
+      "hotelid": "bhopal",
+      "name": "Noor-Us-Sabah Palace",
+      "city": "Bhopal",
+      "star": 4.4,
+      "Address": "VIP Road, Kohefiza, Bhopal, Madhya Pradesh 462001",
+      "price": "10,865"
+    },
+    {
+      "id": "7",
+      "hotelid": "bhopal",
+      "name": "Courtyard by Marriott Bhopaln",
+      "city": "Bhopal",
+      "star": 4.4,
+      "Address": "Dainik Bhaskar Mall, DB City Mall, Zone-I, Arera Hills, Bhopal,",
+      "price": "7,185"
+    },
+    {
+      "id": "1",
+      "hotelid": "dehli",
+      "name": "The Lalit New Delhi",
+      "star": 4.4,
+      "city": "Dehli",
+      "Address": "Fire Brigade Lane, Barakhamba, New Delhi, Delhi ",
+      "price": "7,324"
+    },
+    {
+      "id": "2",
+      "hotelid": "dehli",
+      "name": "Taj Palace, New Delhi",
+      "city": "Dehli",
+      "star": 4.7,
+      "Address": "Taj Palace, 2, Sardar Patel Marg, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi",
+      "price": "19,859"
+    },
+    {
+      "id": "3",
+      "hotelid": "dehli",
+      "name": "De Pavilion Hotel, Delhi",
+      "star": 4.5,
+      "city": "Dehli",
+      "Address": "250-A, Road No. 6, Block RZ, Mahipalpur Village, Mahipalpur, New Delhi,",
+      "price": "2,464"
+    },
+    {
+      "id": "4",
+      "hotelid": "dehli",
+      "name": "Artistic Posh Delhi House",
+      "star": 4.9,
+      "city": "Dehli",
+      "Address": "Brigade Lane, Barakhamba, New Delhi, Delhi ",
+      "price": "3,475"
+    },
+    {
+      "id": "5",
+      "hotelid": "dehli",
+      "name": "Hotel Ajanta",
+      "star": 4.4,
+      "city": "Dehli",
+      "Address": "8647, Arakashan Rd, Ram Nagar, Paharganj, New Delhi, Delhi",
+      "price": "2,022"
+    },
+    {
+      "id": "6",
+      "hotelid": "dehli",
+      "name": "A well furnished 3BHK house for family stay with all facilities.",
+      "star": 5,
+      "city": "Dehli",
+      "Address": " Barakhamba, New Delhi, Delhi ",
+      "price": "48,342"
+    },
+    {
+      "id": "1",
+      "hotelid": "mumbai",
+      "name": "The Taj Mahal Palace, Mumbai",
+      "city": "mumbai",
+      "star": 4.7,
+      "Address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+      "price": "62,258"
+    },
+    {
+      "id": "2",
+      "hotelid": "mumbai",
+      "name": "Hotel Bawa International",
+      "city": "mumbai",
+      "star": 4.2,
+      "Address": "Plot No, T1, Near, 2087, Nehru Rd, Extn, ",
+      "price": "4,515"
+    },
+    {
+      "id": "3",
+      "hotelid": "mumbai",
+      "name": "The Royal Orchid",
+      "city": "mumbai",
+      "star": 4.3,
+      "Address": "83, Narayan Gajanan Acharya Marg, adj. to Railway Station,",
+      "price": "7,756"
+    },
+    {
+      "id": "4",
+      "hotelid": "mumbai",
+      "name": "Four Seasons Hotel Mumbai",
+      "city": "mumbai",
+      "star": 4.5,
+      "Address": "Dr Elijah Moses Rd, Gandhi Nagar, Upper Worli, Worli, Mumbai, ",
+      "price": "31,860"
+    },
+    {
+      "id": "5",
+      "hotelid": "mumbai",
+      "name": "Dragonfly Hotel - The Art Hotel",
+      "city": "mumbai",
+      "star": 4.4,
+      "Address": " New Chakala Link Road,",
+      "price": "2,800"
+    },
+    {
+      "id": "6",
+      "hotelid": "mumbai",
+      "name": "Hyatt Regency Mumbai",
+      "city": "mumbai",
+      "star": 4.5,
+      "Address": "Chhatrapati Shivaji Maharaj Int'l Airport Rd, Ashok Nagar, Andheri East, Mumbai, Maharashtra 400099",
+      "price": "10,258"
+    },
+    {
+      "id": "1",
+      "hotelid": "vidisha",
+      "name": "Hotel Rajawat",
+      "city": "vidisha",
+      "star": 3.7,
+      "Address": "near Railway Station, Madhav Ganj, Baripura, Vidisha",
+      "price": "948"
+    },
+    {
+      "id": "2",
+      "hotelid": "vidisha",
+      "name": "Grand Bhelsa Hotel & Resorts",
+      "city": "vidisha",
+      "star": 4.4,
+      "Address": "Gram-Dabar, Sagar Bypass, Road, Madhya Pradesh 464001 ",
+      "price": "4,131"
+    },
+    {
+      "id": "3",
+      "hotelid": "vidisha",
+      "name": "Krishna sweets restaurant ",
+      "city": "vidisha",
+      "star": 4.3,
+      "Address": "Station Rd, Baripura, Vidisha, Madhya Pradesh 464001",
+      "price": "1,285"
+    },
+    {
+      "id": "4",
+      "hotelid": "vidisha",
+      "name": "Haweli Family Restaurant & Residency",
+      "city": "vidisha",
+      "star": 3.8,
+      "Address": "Vidisha Bypass Rd, Tilakhedi, Vidisha, Madhya Pradesh 464001",
+      "price": "1,223"
+    },
+    {
+      "id": "5",
+      "hotelid": "vidisha",
+      "name": "The Pride Hotel",
+      "city": "vidisha",
+      "star": 3.7,
+      "Address": "Hospital Rd, Baripura, Vidisha",
+      "price": "1,545"
+    }
+  ],
+  "customer": [
+    {
+      "id": "2586",
+      "name": "Aditya Yadav",
+      "mobileNo": "54678569",
+      "Email": "adityayadavadi6100@gmail.com",
+      "Room": "Single",
+      "checkIn": "2025-01-24",
+      "checkOut": "2025-01-24"
+    },
+    {
+      "id": "be71",
+      "name": "sourav",
+      "mobileNo": "4878987987",
+      "Email": "adityayadavadi6100@gmail.com",
+      "Room": "Double",
+      "checkIn": "2025-01-24",
+      "checkOut": "2025-01-24"
+    }
+  ]
 }

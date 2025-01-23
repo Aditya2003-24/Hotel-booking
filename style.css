@@ -163,6 +163,41 @@ body {
   font-family: "Taviraj", serif;
 }
 
+#btn0 {
+  margin: 40px;
+  gap: 20px;
+  box-shadow: 10px 10px 5px rgb(91, 86, 86);
+  border: 1px solid black;
+  width: 300px;
+}
+#btn0 div {
+  text-align: center;
+  font-family: "Taviraj", serif;
+  height: 180px;
+}
+#btn0 img {
+  width: 299px;
+  height: 200px;
+}
+#btn0 h1 {
+  font-size: 30x;
+  font-family: "Taviraj", serif;
+}
+#btn0 p {
+  margin: 20px;
+}
+#btn0 a {
+  border: 1px solid black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.fle {
+  display: flex;
+  justify-content: center;
+}
+
 #btn {
   margin: 40px;
   gap: 20px;
@@ -316,6 +351,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin-top: 40px;
 }
 #tab td {
   border: 1px solid #ddd;
@@ -377,9 +413,19 @@ body {
 }
 
 @media (max-width: 768px) {
+  .fle {
+    flex-wrap: wrap;
+    margin-left: none;
+  }
   .pera {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  header {
+    width: 100%;
+  }
+  header ul {
+    gap: 30px;
   }
   .swiper {
     width: 750px;
@@ -449,6 +495,9 @@ body {
   }
 }
 @media (max-width: 480px) {
+  .fle {
+    flex-wrap: wrap;
+  }
   .pera {
     flex-wrap: wrap;
     justify-content: center;

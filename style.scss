@@ -168,6 +168,47 @@ section{
       font-family: "Taviraj", serif;
 
 }
+#btn0
+{
+    margin: 40px;
+    gap: 20px;
+    box-shadow: 10px 10px 5px rgb(91, 86, 86);
+    border: 1px solid black;
+    width: 300px;
+
+    div{
+        // width: 60%;
+        text-align: center;
+        //  padding-top: 10px;
+         font-family: "Taviraj", serif;
+         height: 180px;
+    }
+    img{
+        width: 299px;
+        height: 200px;
+        
+    }
+    h1{
+        font-size: 30x;
+        font-family: "Taviraj", serif;
+    }
+    p{
+        // font-size: 25px;
+        margin: 20px;
+        // word-spacing: 8px;
+    }
+    a{
+        border: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+.fle{
+    display: flex;
+    // margin-left: 200px;
+    justify-content: center;
+}
 #btn{
     margin: 40px;
     gap: 20px;
@@ -183,6 +224,7 @@ section{
     img{
         width: 500px;
         height: 300px;
+        
     }
     h1{
         font-size: 40x;
@@ -317,6 +359,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin-top: 40px;
   td{
     border: 1px solid #ddd;
   padding: 8px;
@@ -381,10 +424,21 @@ section{
 
 @media (max-width: 768px) {
 
+    .fle{
+        flex-wrap: wrap;
+        margin-left: none;
+    }
+
     .pera{
         flex-wrap: wrap;
         justify-content: center;
 
+    }
+    header{
+        width: 100%;
+        ul{
+            gap: 30px;
+        }
     }
     .swiper {
       width: 750px;
@@ -461,6 +515,9 @@ Section p {
 }
 
 @media (max-width: 480px) {
+    .fle{
+        flex-wrap: wrap;
+    }
     .pera{
         flex-wrap: wrap;
         justify-content: center;
